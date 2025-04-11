@@ -17,19 +17,19 @@ export default function App() {
           initialParams={{
             data: [
               {
-                prompt: "What is 2 + 2?",
+                prompt: "What is connected to a vegetable?",
                 type: "multiple-choice",
-                choices: ["3", "4", "5", "6"],
+                choices: ["banana", "brocolli", "grapes", "apple"],
                 correct: 1,
               },
               {
-                prompt: "Select all prime numbers.",
+                prompt: "Select all that is a fruit.",
                 type: "multiple-answer",
-                choices: ["2", "3", "4", "5"],
+                choices: ["banana", "grapes", "truck", "apple"],
                 correct: [0, 1, 3],
               },
               {
-                prompt: "The earth is flat.",
+                prompt: "A banana is a vegetable.",
                 type: "true-false",
                 choices: ["True", "False"],
                 correct: 1,
