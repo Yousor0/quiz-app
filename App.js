@@ -17,7 +17,7 @@ export default function App() {
           initialParams={{
             data: [
               {
-                prompt: "What is connected to a vegetable?",
+                prompt: "Which of these is a vegetable?",
                 type: "multiple-choice",
                 choices: ["banana", "brocolli", "grapes", "apple"],
                 correct: 1,
